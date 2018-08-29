@@ -1,5 +1,55 @@
 # Webedia Biblioteca Prebid 1.XX
 
+## Sites que usam HB:
+TG, IGN, PP, PB, HY, MV
+
+## Granularidade:
+USD 0 a 1 : 0,05
+USD 1 a 5 : 0,10
+USD 5 a 10: 0,20
+USD 10 a 20 : 0,50
+USD 20 a 50 : 1,00
+USD 50 a 100 : 5,00
+USD 100 a 300 : 25,00
+
+## TG
+* Versão: 1.90
+* Timeout: 4000
+* Redes: Rubicon, Appnexus, Criteo
+* Granularidade: Dense
+
+## IGN
+* Versão: 0.25.0-pre
+* Timeout: 14000
+* Redes: Rubicon, Appnexus, Criteo
+* Granularidade: Padrão Smart
+
+## PP
+* Versão: 0.25.0-pre
+* Timeout: 14000
+* Redes: Rubicon, Appnexus
+* Granularidade: Padrão Smart
+
+## PB
+* Versão: 0.25.0-pre
+* Timeout: 14000
+* Redes: Rubicon, Appnexus
+* Granularidade: Padrão Smart
+
+## HY
+* Versão: 0.34.4
+* Timeout: 3000
+* Redes: Rubicon, Appnexus
+* Granularidade: Padrão Smart
+
+## MV
+* Versão: 0.23.1
+* Timeout: 1000
+* Redes: Rubicon
+* Granularidade: 
+* USD 0 a 0.50 : 0,01
+* USD 0.50 a 10 : 0,05
+
 ## Header Bidding onEvent()
 
 Tempo de requisição do Bid
