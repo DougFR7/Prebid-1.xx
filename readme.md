@@ -70,15 +70,15 @@ var formatos = [];
 var dominio = window.location.href.match(/:\/\/(.[^/]+)/)[1];
 if (dominio == 'blog.tudogostoso.com.br' || dominio == 'blog.hm.tudogostoso.com.br') {
   if (detectmob()){
-    formatos = [{id:"ad-header",position:"atf",siteId: "139454", rubiconId:"662524",appnexusId:"5756256",criteoId:"803646"}];
+    formatos = [{id:"ad-header",position:"atf",siteId: "xxxxxx", rubiconId:"xxxxxx",appnexusId:"xxxxxx",criteoId:"xxxxxx"}];
   } else {
-    formatos = [{id:"ad-header",position:"atf",siteId: "139450", rubiconId:"662512",appnexusId:"5756256",criteoId:"803642"}];
+    formatos = [{id:"ad-header",position:"atf",siteId: "xxxxxx", rubiconId:"xxxxxx",appnexusId:"xxxxxx",criteoId:"xxxxxx"}];
   }
 } else {
   if (detectmob()){
-    formatos = [{id:"ad-header",position:"atf",siteId: "69062", rubiconId:"590640",appnexusId:"5756274",criteoId:"787222"}];
+    formatos = [{id:"ad-header",position:"atf",siteId: "xxxxxx", rubiconId:"xxxxxx",appnexusId:"xxxxxx",criteoId:"xxxxxx"}];
   } else {
-    formatos = [{id:"ad-header",position:"atf",siteId: "69052", rubiconId:"329764",appnexusId:"5756253",criteoId:"787219"}];
+    formatos = [{id:"ad-header",position:"atf",siteId: "xxxxxx", rubiconId:"xxxxxx",appnexusId:"xxxxxx",criteoId:"xxxxxx"}];
   }
 }
 ```
@@ -97,11 +97,11 @@ function headerBidding () {
         bids: [{
           bidder: "rubicon",
           params: {
-            accountId: "13624",
+            accountId: "xxxxxx",
             siteId: formatos[i].siteId,
             zoneId: formatos[i].rubiconId,
             inventory: {
-              adunit: keywords.adunit.replace('/21636860837/', ''),
+              adunit: keywords.adunit.replace('/xxxxxx/', ''),
               position: formatos[i].position
             },
             visitor: profileTailTarget
