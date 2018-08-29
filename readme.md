@@ -1,16 +1,16 @@
 # Webedia Biblioteca Prebid 1.XX
 
 ## Sites que usam HB:
-TG, IGN, PP, PB, HY, MV
+* TG, IGN, PP, PB, HY, MV
 
 ## Granularidade:
-USD 0 a 1 : 0,05
-USD 1 a 5 : 0,10
-USD 5 a 10: 0,20
-USD 10 a 20 : 0,50
-USD 20 a 50 : 1,00
-USD 50 a 100 : 5,00
-USD 100 a 300 : 25,00
+* USD 0 a 1 : 0,05
+* USD 1 a 5 : 0,10
+* USD 5 a 10: 0,20
+* USD 10 a 20 : 0,50
+* USD 20 a 50 : 1,00
+* USD 50 a 100 : 5,00
+* USD 100 a 300 : 25,00
 
 ## TG
 * Versão: 1.90
